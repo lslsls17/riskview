@@ -1,0 +1,56 @@
+.drop-down-list {
+  width: 100%;
+}
+.model-portfolio h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  padding-top: 15px;
+  margin: 0;
+}
+.model-portfolio p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+.model-portfolio-info {
+  grid-row: 1;
+  display: inline-block;
+}
+.fund-detail-list {
+  font-size: 0.9rem;
+}
+.fund-detail-list span {
+  display: block;
+}
+.fund-detail-list span:first-child {
+  font-weight: bold;
+}
+.fund-detail-list span:last-child {
+  margin-bottom: 0.2rem;
+}
+
+.change-up {
+  color: green;
+}
+.change-down {
+  color: red;
+}
+
+.panels > * > * {
+  transition: opacity 0.5s ease-in;
+}
+
+.k-icon.k-i-loading {
+  font-size: 50px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 1rem;
+  height: 100%;
+}
+
+.k-grid {
+  font-size: 0.9rem;
+}
+.k-grid td,
+.k-grid-header .k-header > .k-link {
+  text-overflow: initial;
+}
